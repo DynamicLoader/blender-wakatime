@@ -2,7 +2,7 @@ from typing import Optional
 
 import bpy
 from bpy.props import BoolProperty, FloatProperty, StringProperty
-from bpy_types import PropertyGroup
+from bpy.types import PropertyGroup
 from . import settings
 from .log import ERROR, log
 from .utils import u

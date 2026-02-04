@@ -2,7 +2,7 @@
 
 ### Installation
 
-To install the plugin you need to download the source code [zip archive](https://github.com/wakatime/blender-wakatime/archive/refs/heads/master.zip).
+To install the plugin you need to download the source code [zip archive](https://github.com/DynamicLoader/blender-wakatime/archive/refs/heads/master.zip).
 
 Save it somewhere, open the Blender, go to *Edit->Preferences...->Add-ons->Install...*
 
@@ -75,5 +75,3 @@ The _Heartbeat Frequency_ option allows to change the interval (in minutes) of s
 
 When working on issues and/or new features, please, use the latest stable Blender _and the python it bundles_.
 
-Before submitting a PR, always format the code with [`black`](https://github.com/psf/black). _I don't particularly like
-its style myself, but it's the easiest-to-set-up common ground._

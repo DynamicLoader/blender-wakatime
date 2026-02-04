@@ -14,11 +14,11 @@ from .wakatime_blender.wakatime_downloader import WakatimeDownloader
 bl_info = {
     "name": "WakaTime",
     "category": "Development",
-    "author": "Allis Tauri <allista@gmail.com>",
-    "version": (2, 0, 1),
-    "blender": (3, 3, 0),
+    "author": "Yi Lu <hi@octz.net>",
+    "version": (2, 1, 0),
+    "blender": (5, 0, 0),
     "description": "Submits your working stats to the Wakatime time tracking service.",
-    "tracker_url": "https://github.com/wakatime/blender-wakatime/issues",
+    "tracker_url": "https://github.com/DynamicLoader/blender-wakatime/issues",
 }
 
 __version__ = ".".join((f"{n}" for n in bl_info["version"]))
